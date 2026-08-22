@@ -3,155 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohan Verma | BCA Student</title>
+    <meta name="description" content="Portfolio of Rohan Verma, BCA Student and Aspiring Software Developer">
+    <title>Rohan Verma | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
     <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">Rohan.Dev</a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
+        <div class="logo">RV<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <header id="home" class="hero">
-        <div class="container hero-content">
-            <span class="greeting">Hello, I'm</span>
-            <h1>Rohan Verma</h1>
-            <p>BCA Student at <span class="highlight">Noida International University</span></p>
-            <p class="tagline">Aspiring Software Developer & Tech Enthusiast</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn">My Work</a>
-                <a href="#contact" class="btn secondary-btn">Contact Me</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I am currently pursuing my <strong>Bachelor of Computer Applications (BCA)</strong> at <strong>Noida International University (NIU)</strong>, Noida. I have a strong passion for solving complex problems through code.</p>
-                    <p>My academic journey has equipped me with a solid foundation in computer science principles, and I am constantly learning new technologies to stay ahead in the tech world. I am looking for internship opportunities to apply my skills in a real-world environment.</p>
-                    
-                    <div class="education-card">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div>
-                            <h3>Bachelor of Computer Applications</h3>
-                            <p>Noida International University, Noida</p>
-                            <p class="date">2025 - 2028</p>
-                        </div>
-                    </div>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content hidden">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Rohan <span>Verma</span></h1>
+                <h2 class="title">Aspiring Software Developer</h2>
+                <p class="description">BCA Student | Problem Solver | Gamer based in Noida, India.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="https://www.linkedin.com/in/rvnrohan" target="_blank" class="btn btn-secondary">LinkedIn <i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
+        <section id="about" class="about">
+            <div class="section-heading hidden">
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about-container hidden">
+                <div class="glass-card about-card">
+                    <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Education</h3>
+                    <p class="highlight">Noida International University</p>
+                    <p>Bachelor of Computer Application (BCA)</p>
+                    <p class="subtext">Computer and Information Sciences and Support Services</p>
+                    <p class="date">Aug 2025 - Aug 2028</p>
+                </div>
+                <div class="glass-card about-card">
+                    <div class="card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Location</h3>
+                    <p class="highlight">Noida, Uttar Pradesh</p>
+                    <p>India</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-heading hidden">
+                <h2>My <span>Skills</span></h2>
+            </div>
             <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fab fa-html5"></i>
-                    <h3>HTML5 & CSS3</h3>
+                <div class="glass-card skill-card hidden">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>C Programming</h3>
                 </div>
-                <div class="skill-card">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
+                <div class="glass-card skill-card hidden">
+                    <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile App Dev</h3>
                 </div>
-                <div class="skill-card">
-                    <i class="fab fa-java"></i>
-                    <h3>Java</h3>
+                <div class="glass-card skill-card hidden">
+                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                    <h3>Account Management</h3>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-database"></i>
-                    <h3>SQL / MySQL</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-cuttlefish"></i>
-                    <h3>C++</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-git-alt"></i>
-                    <h3>Git & GitHub</h3>
+                <div class="glass-card skill-card hidden">
+                    <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Problem Solving</h3>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>Library Management System</h3>
-                        <p>A desktop application built using Java and MySQL to manage book records, student borrowing history, and inventory.</p>
-                        <div class="tags">
-                            <span>Java</span>
-                            <span>MySQL</span>
-                        </div>
-                        <a href="#" class="btn-link">View Code <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>Student Portfolio Website</h3>
-                        <p>A fully responsive personal portfolio website designed with HTML, CSS, and JavaScript to showcase my academic and personal projects.</p>
-                        <div class="tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JS</span>
-                        </div>
-                        <a href="#" class="btn-link">View Live <i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>Calculator App</h3>
-                        <p>A simple yet functional calculator web application with a modern UI and keyboard support.</p>
-                        <div class="tags">
-                            <span>JavaScript</span>
-                            <span>DOM</span>
-                        </div>
-                        <a href="#" class="btn-link">View Code <i class="fab fa-github"></i></a>
-                    </div>
+        <section id="contact" class="contact">
+            <div class="section-heading hidden">
+                <h2>Let's <span>Connect</span></h2>
+            </div>
+            <div class="glass-card contact-card hidden">
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                <div class="contact-links">
+                    <a href="mailto:boyofbawsa@gmail.com" class="contact-btn">
+                        <i class="fas fa-envelope"></i> boyofbawsa@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/rvnrohan" target="_blank" class="contact-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn Profile
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section bg-dark">
-        <div class="container contact-container">
-            <h2 class="section-title text-white">Get In Touch</h2>
-            <p class="text-white">I'm currently open for internships and freelance projects.</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/rvnrohan/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/AlsoRohan" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="boyofbawsa@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.instagram.com/rohann_razput/" title="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-            <p class="footer-text">&copy; 2025 Rohan Verma. All Rights Reserved.</p>
-        </div>
-    </section>
+    <footer>
+        <p>&copy; 2026 Rohan Verma. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
